@@ -1,0 +1,185 @@
+.no-nav-header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 350%;
+    padding-top: 1%;
+    text-align: center;
+    color: #696969;
+}
+
+.no-nav-subheader {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+    text-align: center;
+    color: #696969;
+}
+
+.no-nav-form, .no-nav-links, .display-faqs  {
+    width:50%; 
+    margin:0 auto;
+    text-align:center;
+}
+
+.display-faqs {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.welcome {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+    padding-top: 1%;
+    text-align: center;
+    color: #696969;
+}
+
+#required-field, #invalid-email, #invalid-password-upper, #invalid-password-lower, #invalid-password-special, #invalid-password-number, #invalid-password-length, #invalid-username, #invalid-combo {
+    text-align:center;
+}
+
+.side-nav {
+    height: 100%;
+    width: 22%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+  }
+
+.side-nav td {
+    padding-bottom: 5%;
+    text-decoration: none;
+    font-size: 25px;
+    color: #696969;
+    display: block;
+    cursor: pointer;
+}
+
+.side-nav td:hover {
+    color: white;
+}
+
+.record-content {
+    padding-top: 3%;
+    position: relative;
+}
+
+.add-record-form, .edit-record-form {
+    width: 50%;
+    margin:0 auto;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.admin-form {
+    width: 50%;
+    margin:0 auto;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.record-table {
+    width:50%; 
+    margin:0 auto;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+#record-name {
+    text-decoration: underline;
+}
+
+#side-nav-header {
+    padding-top: 5%;
+    color: white;
+}
+
+#side-nav-table {
+    padding-top: 10%;
+}
+
+.faq-header {
+    overflow: hidden;
+    table-layout:fixed;
+    width: 60%;
+}
+
+#side-nav-elements {
+    padding-top: 20%;
+}
+
+#side-nav-elements-faq {
+    padding-top: 10%;
+}
+
+#add-record-button, #update-user-button, #log-out-button {
+    border-radius: 5px;
+    padding: 5px;
+    width: 70%;
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#submit-record-button, #edit-record-button {
+    border-radius: 5px;
+    padding: 1%;
+    background-color: #696969;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+#side-nav-header, #side-nav-table, #side-nav-elements, #side-nav-elements-faq  {
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#password, #edit_user_password {
+    -webkit-text-security: disc;
+}
+
+.secret-logo {
+    position: absolute;
+    right: 0px;
+    padding-bottom: 5%;
+    padding-top: 10%;
+}
+
+#secret-logo-faq {
+    padding-top: 15%;
+}
+
+.button-spacing {
+    height: 10px;
+}
+
+.center-button {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-default {
+    text-align: center;
+    cursor: pointer;
+}
+
+input {
+    vertical-align: -2px;
+    position: relative;
+}
+
+label {
+    padding-right: 10px;
+    width:45%;
+    text-align:right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input, label {
+    float:left;
+}

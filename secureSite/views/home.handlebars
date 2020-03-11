@@ -1,0 +1,27 @@
+<h1 class="no-nav-header">Secret Keeper</h1>
+<script src="/js/homePage.js"></script>
+<div class="home">
+    <form class="no-nav-form" method="post">
+        <label for="username">Username: </label>
+        <input type="text" name="username" id="username">
+        <br><br>
+        <label for="password">Password: </label>
+        <input type="text" name="password" id="password">
+        <br>
+        <p><a href="/faq" style="text-decoration: none;">Click here</a> for FAQs.</p>
+        <p>New User? <a href="/createUser" style="text-decoration: none;">Click here.</a></p>
+        <div class="center-button">
+            <button class="button-default"
+                type="button"
+                id="login"
+                onClick="startLogin()"
+            > Sign In </button>
+        </div>
+    </form>
+        <div id="invalid-combo" style="display: none;">
+                <p>*Error: Username / Password combination was not found</p>
+        </div>
+</div><br><br>
+<div class="secret-logo">
+    <img src="images/top-secret-white.png" width="350" height="350" alt="Top Secret">
+</div>
